@@ -1,0 +1,71 @@
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-light-grey: hsl(212, 46%, 89%);
+  --bg-white: hsl(0, 0%, 100%);
+  --bx-shadow: #d4d4d45b;
+  --fnt-dark-grey: hsl(218, 44%, 22%);
+  --fnt-light-grey: hsl(220, 15%, 55%);
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg-light-grey);
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+/* Start of Main container */
+.primary-container {
+  border-radius: 20px;
+  background-color: var(--bg-white);
+  box-shadow: 0px 0px 10px 10px var(var(--bx-shadow));
+  width: 22em;
+}
+
+.qr-code-img {
+  padding: 1.2rem;
+}
+
+.qr-code-img img {
+  display: block;
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* Styling of text area */
+.head {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+
+.head h1 {
+  color: var(--fnt-dark-grey);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.head p {
+  color: var(--fnt-light-grey);
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* End o Main Container */
