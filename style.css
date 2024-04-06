@@ -34,7 +34,7 @@ body {
   background-color: var(--bg-white);
   box-shadow: 0px 0px 10px 10px var(var(--bx-shadow));
   width: 22em;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .qr-code-img {
